@@ -1,5 +1,6 @@
+import ServicesPage from "../ui/ServicesPage";
 function Projects() {
-  return <div>Project Page</div>;
+  return <div><ServicesPage /></div>;
 }
 
 export default Projects;

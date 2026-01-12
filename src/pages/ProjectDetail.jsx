@@ -1,5 +1,6 @@
+import ServiceDetail from "../ui/ServiceDetailPage";
 function ProjectDetail() {
-  return <div>Project Detail</div>;
+  return <ServiceDetail />;
 }
 
 export default ProjectDetail;
