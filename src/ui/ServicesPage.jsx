@@ -5,7 +5,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 export default function Services() {
   return (
     <section className="py-20 bg-gray-50">
-      <div className=" px-4 md:px-6 lg:px-24 xl:px-32">
+      <div className=" px-4 md:px-6 lg:px-16 xl:px-32">
         {/* Header */}
         <div className="text-center mb-14 md:mb-20">
           <p className="text-sm text-blue-600 font-semibold uppercase">
@@ -34,7 +34,7 @@ export default function Services() {
 
       {/* Content */}
       <div className="p-4 sm:p-5 lg:p-6">
-        <h3 className="text-xl sm:text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 transition-colors duration-300 group-hover:text-[#00A3E0]">
+        <h3 className="text-xl sm:text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 transition-colors duration-300 group-hover:text-primary">
           {service.title}
         </h3>
 
@@ -46,7 +46,7 @@ export default function Services() {
         
 <a
   href={`/projects/${service.id}`}
-  className="inline-flex items-center mt-3 sm:mt-4 text-sm sm:text-base md:text-lg font-medium text-[#00A3E0] hover:text-[#007bbf] transition-colors duration-300"
+  className="inline-flex items-center mt-3 sm:mt-4 text-sm sm:text-base md:text-lg font-medium text-primary hover:text-primary transition-colors duration-300"
 >
   Read More <IoIosArrowRoundForward className="ml-1 text-lg" />
 </a>

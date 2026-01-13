@@ -6,7 +6,12 @@ export default {
       sans: "Roboto Mono",
     },
 
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#00A3E0",     // blue
+        secondary: "#f97316",   // orange
+      },
+    },
   },
   plugins: [],
 };
