@@ -91,14 +91,32 @@ export default function Services() {
     <section className="py-20 bg-gray-50">
       <div className="px-4 md:px-6 lg:px-16 xl:px-32">
         {/* Header */}
-        <div className="text-center mb-14 md:mb-20">
-          <p className="text-sm text-blue-600 font-semibold uppercase">
-            What We Do
-          </p>
-          <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mt-2">
-            Services That Help <span> You Grow</span> 
-          </h2>
-        </div>
+<div className="text-center mb-14 md:mb-20">
+  <h1 className="text-base font-semibold uppercase tracking-wide text-[#00A3E0] mb-3">
+    What We Do
+  </h1>
+
+  <h2 className="font-extrabold text-gray-900 leading-tight
+                 text-3xl sm:text-4xl md:text-5xl">
+
+    {/* Mobile layout */}
+    <span className="block sm:hidden">
+      Services That Help
+      <br />
+      You Grow
+    </span>
+
+    {/* Tablet & Desktop layout */}
+    <span className="hidden sm:block">
+      Services That Help You
+      <br />
+      <span className="block mt-4">Grow</span>
+    </span>
+
+  </h2>
+</div>
+
+
 
         {/* Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

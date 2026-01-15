@@ -13,6 +13,10 @@ import BlogDetail from "./pages/BlogDetail";
 import Contact from "./pages/Contact";
 import PageNotFound from "./pages/PageNotFound";
 
+import Portfolio from "./pages/Portfolio";
+import PortfolioDetail from "./pages/PortfolioDetail";
+
+
 function App() {
   return (
     <BrowserRouter>
@@ -24,6 +28,10 @@ function App() {
           <Route path="teams" element={<Teams />} />
           <Route path="projects" element={<Projects />} />
           <Route path="/projects/:id" element={<ProjectDetail />} />
+
+          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="/portfolio/:id" element={<PortfolioDetail />} />
+
           <Route path="careers" element={<Careers />} />
           <Route path="/careers/:id" element={<CareerDetail />} />
           <Route path="blogs" element={<Blogs />} />
