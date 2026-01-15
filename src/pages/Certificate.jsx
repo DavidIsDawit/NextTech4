@@ -1,5 +1,8 @@
+import Certificatepage from "../ui/certificateui";
 function Certificate() {
-  return <div>Certificate Page</div>;
+  return <div>
+    <Certificatepage/>
+  </div>;
 }
 
 export default Certificate;
