@@ -1,7 +1,8 @@
-import Portfolio from "../ui/Portfolio";
+// import Portfolio from "../ui/Portfolio";
+import PortfolioSection from "../ui/PortfolioSection";
 
 function PortfolioPage() {
-  return <Portfolio />;
+  return <PortfolioSection />;
 }
 
 export default PortfolioPage;
