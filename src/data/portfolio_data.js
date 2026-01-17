@@ -75,8 +75,12 @@ export const portfolioProjects = [
   client: "Broadcast",
   avSystem: "Broadcast",
   date: "October 15, 2023",
-  description:
-    "Design, Supply and Installation of Audio Visual System and Installation Structure in the Board Room and Auditorium for the Main Headquarter of Addis Ababa. The project involved the creation of Audio Visual System and Installation Structure in the Board Room and Auditorium for the Main Headquarter of Addis Ababa. Design, Supply and Installation of Audio Visual System and Installation Structure in the Board Room and Auditorium for the Main Headquarter of Addis Ababa. The project involved the creation of Audio Visual System and Installation Structure in the Board Room and Auditorium for the Main Headquarter of Addis Ababa.",
+  description: [
+  "Design, Supply and Installation of Audio/Visual System and Auditorium Hall Structure in the Board Room and Auditorium Hall for Mojo Port and Terminal Branch Office.",
+  "The project focused on integrating modern AV technologies with architectural design to enhance functionality and aesthetics.",
+  "Careful coordination ensured seamless installation with minimal disruption to ongoing operations."
+],
+
   image: "/images/img.png",
   teamMembers: [
     {
@@ -106,8 +110,12 @@ export const portfolioProjects = [
     "Supply and installation of Audio Visual System",
     "Installation Structure",
   ],
-  results:
-    "The project successfully delivered a cohesive visual system that improved space efficiency by 35% and reduced construction costs by 22%. The integrated approach to design and construction allowed for seamless implementation with minimal disruption to ongoing operations. Client satisfaction ratings increased to 4.8/5, and the project became a template for future interior design initiatives across multiple locations.",
-}
+  results: [
+      "Design, Supply and Installation of Audio/Visual System and Auditorium Hall Structure in the Board Room and Auditorium Hall for Mojo Port and Terminal Branch Office.Design, Supply and Installation of Audio/Visual System and Auditorium Hall Structure in the Board Room and Auditorium Hall for Mojo Port and Terminal Branch Office.Design, Supply and Installation of Audio/Visual System and Auditorium Hall Structure in the Board Room and Auditorium Hall for Mojo Port and Terminal Branch Office.Design, Supply and Installation of Audio/Visual System and Auditorium Hall Structure in the Board Room and Auditorium Hall for Mojo Port and Terminal Branch Office.",
+      "The project focused on creating a modern, functional AV environment that seamlessly integrates with the architectural design of both the Board Room and the main Auditorium.Design, Supply and Installation of Audio/Visual System and Auditorium Hall Structure in the Board Room and Auditorium Hall for Mojo Port and Terminal Branch Office.Design, Supply and Installation of Audio/Visual System and Auditorium Hall Structure in the Board Room and Auditorium Hall for Mojo Port and Terminal Branch Office.Design, Supply and Installation of Audio/Visual System and Auditorium Hall Structure in the Board Room and Auditorium Hall for Mojo Port and Terminal Branch Office.",
+      "Careful planning and professional execution ensured minimal disruption to daily operations during the entire installation period.",
+      "The final outcome significantly improved audio clarity, visual presentation quality, and overall user experience for all meetings and events."
+    ],
+  },   
  
 ]
