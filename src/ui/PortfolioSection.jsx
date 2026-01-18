@@ -66,6 +66,7 @@
 
 import { useState } from "react"
 import PortfolioCard from "./PortfolioCard"
+import Pagination from "./Pagination" // Capitalized
 import { portfolioProjects } from "../data/portfolio_data"
 
 const categories = ["All", "AI Development", "Web Development", "Marketing", "Interior Design", "Cloud Computing"]
@@ -79,10 +80,10 @@ export default function PortfolioSection() {
       : portfolioProjects.filter((item) => item.category === selectedCategory)
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 py-16">
+    <div className="  px-4 py-16 md:px-24">
       {/* Header */}
       <div className="text-center mb-12">
-        <p className="text-cyan-500 font-medium text-sm mb-2">Work with us</p>
+        <p className="text-cyan-500 font-medium text-lg mb-2">Work with us</p>
         <h2 className="text-4xl font-bold text-gray-900 mb-8">Our portfolio</h2>
 
         {/* Active dot logic */}
@@ -126,17 +127,7 @@ export default function PortfolioSection() {
 
       {/* Pagination */}
       <div className="flex justify-center items-center gap-2">
-        <button className="text-gray-400 hover:text-gray-600">«</button>
-        <button className="text-gray-400 hover:text-gray-600">‹</button>
-        {[1, 2, 3, 4, 5].map((page) => (
-          <button
-            key={page}
-            className={`w-2 h-2 rounded-full transition-colors ${page === 3 ? "bg-cyan-500" : "bg-gray-300"}`}
-            aria-label={`Page ${page}`}
-          />
-        ))}
-        <button className="text-gray-400 hover:text-gray-600">›</button>
-        <button className="text-gray-400 hover:text-gray-600">»</button>
+        <Pagination /> {/* Capitalized */}
       </div>
     </div>
   )
