@@ -36,7 +36,7 @@ export default function GalleryCard({ src, alt = "Gallery image", onClick }) {
         className="
           w-[full] h-full object-fill object-top
           transition-transform duration-700 
-          group-hover:scale-110          
+                   
         "
         loading="lazy"
       />
@@ -49,7 +49,7 @@ export default function GalleryCard({ src, alt = "Gallery image", onClick }) {
       > 
         <img
                   src={LeftArrow }
-                  className="h-8 w-8 object-cover"
+                  className="h-6 w-6 lg:h-8 lg:w-8 object-cover"
                   alt=""
                 />
        
@@ -62,7 +62,7 @@ export default function GalleryCard({ src, alt = "Gallery image", onClick }) {
       >
          <img
                   src={RightArrow }
-                  className=" h-8 w-8   "
+                  className=" h-6 w-6 lg:h-8 lg:w-8 object-cover "
                   alt=""
                 />
       
@@ -76,8 +76,8 @@ export default function GalleryCard({ src, alt = "Gallery image", onClick }) {
         <div
           className="
             absolute bottom-0 left-0 right-0 z-10
-            bg-gradient-to-t from-black/80 via-black/40 to-transparent
-            px-2 pb-3 pt-6
+            bg-black/60 
+            px-3 pb-5 pt-3
           "
         >
           <div className="flex gap-2">
@@ -88,7 +88,7 @@ export default function GalleryCard({ src, alt = "Gallery image", onClick }) {
                   e.stopPropagation();
                   setCurrentIndex(index);
                 }}
-                className={`h-full w-full rounded-md overflow-hidden border
+                className={`h-full w-full rounded-sm overflow-hidden border
                   ${
                     index === currentIndex 
                       ? "border-blue-500"

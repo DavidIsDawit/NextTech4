@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import galleryItems from '../../data/images'; // or wherever your data is
 import GalleryGrid from './GallaryGrid';
-// import Pagination from "./Pagination";
+import Pagination from "./Pagination";
 
 const ITEMS_PER_PAGE = 6;
 
@@ -19,26 +19,22 @@ export default function GalleryUI() {
   const visibleItems = galleryItems.slice(0, ITEMS_PER_PAGE);
 
   return (
-    <div className="h-screen  bg-gray-50/50 py-16 px-4 sm:px-6 lg:px-8">
+    <div className="bg-gray-50/50 py-16 px-4 sm:px-6 lg:px-8">
       <div className=" 
   mx-[4%]
-  sm:mx-[5%]
-  md:mx-[6%]
-  lg:mx-[7%]
-  xl:mx-[7.5%]
-  2xl:mx-[8%]
+  
 "> 
        
         {/* Grid */}
         <GalleryGrid 
-          items={visibleItems} 
+          items={currentItems} 
           onItemClick={setSelectedImage}
         />
-         {/* <Pagination
+         <Pagination
           currentPage={currentPage}
           totalPages={totalPages}
           onPageChange={setCurrentPage}
-        /> */}
+        />
         {/* Full-screen modal on click
         {selectedImage && (
           <div 

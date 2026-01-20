@@ -1,82 +1,122 @@
-// const galleryItems = [
-//   "/image/project1.png",
-//   "/image/project.png",
-//   "/image/project1.png",
-//   "/image/project.png",
-//   "/image/project1.png",
-//   "/image/project.png",
-//   "/image/project1.png",
-//   "/image/project.png",
-//   "/image/project1.png",
-//   "/image/project.png",
-//   "/image/project1.png",
-//   "/image/project.png",
-//   "/image/project1.png",
-//   "/image/project.png",
-//   "/image/project1.png",, ];
-
-// export default galleryItems;
 
 // data/images.js
+import project1 from "/image/project1.png";
+import project from "/image/project.png";
 export default [
   {
     id: 1,
     images: [
-       "/image/project1.png",
-  
-
+       project1,
     ]
   },
   {
     id: 2,
     images: [
-     "/image/project.png",
-   "/image/project1.png",
-  "/image/project.png",
-      "/image/project1.png",
-      "/image/project.png",
+     project,
+     project1,
+     project,
+     project1,
+     project,
     ]
   },
    {
     id: 3,
     images: [
-       "/image/project1.png",
-   "/image/project.png",
-  "/image/project1.png",
-      "/image/project.png",
-      "/image/project1.png",
+       project1,
+       project,
+       project1,
+       project,
+       project1,
     ]
   },
   
      {
     id: 4,
-    images: [
-     "/image/project.png",
-   "/image/project1.png",
-  "/image/project.png",
-      "/image/project1.png",
-      "/image/project.png"
+     images: [
+     project,
+     project1,
+     project,
+     project1,
+     project,
     ]
   },
     {
     id: 5,
-    images: [
-       "/image/project1.png",
-   "/image/project.png",
-  "/image/project1.png",
-      "/image/project.png",
-      "/image/project1.png",
+   images: [
+       project1,
+       project,
+       project1,
+       project,
+       project1,
     ]
   },
  
      {
     id: 6,
+      images: [
+     project,
+     project1,
+     project,
+     project1,
+     project,
+    ]
+  },
+  {
+    id: 7,
     images: [
-     "/image/project.png",
-   "/image/project1.png",
-  "/image/project.png",
-      "/image/project1.png",
-      "/image/project.png",
+       project1,
+       project1,
+      project,
+
+    ]
+  },
+  {
+    id: 8,
+    images: [
+     project,   
+      project1,
+      project,
+    ]
+  },
+   {
+    id: 9,
+    images: [
+       project1,
+   project,
+  project1,
+     
+    ]
+  },
+  
+     {
+    id: 10,
+    images: [
+     project,
+   project1,
+  project,
+      project1,
+      project
+    ]
+  },
+    {
+    id: 11,
+    images: [
+       project1,
+   project,
+  project1,
+      project,
+      project1,
+    ]
+  },
+ 
+     {
+    id: 12,
+    images: [
+     project,
+   project1,
+  project,
+      project1,
+      project,
     ]
   }
 

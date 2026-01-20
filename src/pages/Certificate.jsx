@@ -1,7 +1,7 @@
-import Certificatepage from "../ui/certificateui";
+import Certificateui from "../ui/certificateui";
 function Certificate() {
   return <div>
-    <Certificatepage/>
+    <Certificateui/>
   </div>;
 }
 

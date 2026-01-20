@@ -6,7 +6,7 @@ function AppLayout() {
       <header className="h-16 bg-blue-400">
         <div>Header + Navbar</div>
       </header>
-      <main className="h-screen">
+      <main className="overflow-auto">
         <Outlet />
       </main>
       <footer className="h-56 bg-neutral-500">Footer</footer>
