@@ -10,7 +10,7 @@ function BlogCard({ post }) {
         <div
             className="group flex flex-col overflow-hidden rounded-xl bg-white shadow-sm transition-transform"
         >
-            <div className="relative overflow-hidden">
+            <div className="relative overflow-hidden h-64 2xl:h-80">
                 <img
                     src={post.image}
                     alt={post.title}
@@ -18,9 +18,9 @@ function BlogCard({ post }) {
                 />
             </div>
 
-            <div className="flex w-full bg-white p-6">
+            <div className="flex w-full bg-white p-6 2xl:p-8">
                 <div className="flex w-full flex-col items-start lg:w-2/3">
-                    <div className="mb-4 flex flex-nowrap items-center gap-x-4 gap-y-2 text-[13px]">
+                    <div className="mb-4 flex flex-nowrap items-center gap-x-4 gap-y-2 text-[13px] 2xl:text-base">
                         <div className="flex items-center">
                             <MdPerson className="mr-1 text-lg text-sky-500" />
                             <span>{post.author}.</span>
@@ -31,7 +31,7 @@ function BlogCard({ post }) {
                         </div>
                     </div>
 
-                    <h1 className="mb-4 text-left font-bold leading-7 text-[#1a1a1a] transition-colors group-hover:text-sky-500 ">
+                    <h1 className="mb-4 text-left font-bold leading-7 text-[#1a1a1a] transition-colors group-hover:text-sky-500 2xl:text-xl">
                         {post.title}
                     </h1>
 

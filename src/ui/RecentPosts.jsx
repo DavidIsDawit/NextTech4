@@ -39,11 +39,11 @@ function RecentPosts({ posts }) {
                             alt={post.title}
                             className="h-20 w-20 rounded-md object-cover"
                         />
-                        <div className="flex flex-col justify-center gap-1">
-                            <h4 className="text-[15px] font-bold leading-snug text-[#1a1a1a] transition-colors duration-300 group-hover:text-[#00a6e3]">
+                        <div className="flex flex-col justify-center gap-3">
+                            <h4 className="text-lg font-bold leading-snug text-[#1a1a1a] transition-colors duration-300 group-hover:text-[#00a6e3]">
                                 {post.title}
                             </h4>
-                            <div className="flex items-center text-[13px] font-medium text-[#00A3C4]">
+                            <div className="flex items-center text-sm font-medium text-[#00A3C4]">
                                 <MdOutlineCalendarToday className="mr-2" size={16} />
                                 <span>{formatDate(post.date)}</span>
                             </div>

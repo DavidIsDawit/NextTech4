@@ -16,7 +16,7 @@ function BlogContent({ post }) {
                 className="mb-8 w-full object-cover"
             />
 
-            <div className="mb-6 flex flex-wrap items-center gap-6 text-[15px] text-gray-500">
+            <div className="mb-6 flex flex-wrap items-center gap-6 text-[15px] 2xl:text-lg 2xl:gap-10 text-gray-500">
                 <div className="flex items-center">
                     <MdOutlinePerson className="mr-1 text-sky-500" size={22} />
                     <span>{post.author}</span>
@@ -31,11 +31,11 @@ function BlogContent({ post }) {
                 </div>
             </div>
 
-            <h1 className="mb-10 text-2xl font-bold text-[#1a1a1a] md:text-3xl lg:text-4xl pr-20 leading-tight">
+            <h1 className="mb-10 2xl:mb-14 text-2xl font-extrabold text-lg md:text-3xl lg:text-5xl 2xl:text-6xl pr-20 leading-tight ">
                 {post.title}
             </h1>
 
-            <div className="space-y-8 text-gray-600 leading-relaxed">
+            <div className="space-y-8 2xl:space-y-12 text-gray-600 text-md 2xl:text-lg leading-relaxed">
                 {(post.content || []).map((para, index) => (
                     <p key={index}>{para}</p>
                 ))}
