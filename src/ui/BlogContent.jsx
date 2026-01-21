@@ -35,7 +35,7 @@ function BlogContent({ post }) {
                 {post.title}
             </h1>
 
-            <div className="space-y-8 2xl:space-y-12 text-gray-600 text-md 2xl:text-lg leading-relaxed">
+            <div className="space-y-8 2xl:space-y-12 text-gray-600 text-lg 2xl:text-xl leading-relaxed">
                 {(post.content || []).map((para, index) => (
                     <p key={index}>{para}</p>
                 ))}
