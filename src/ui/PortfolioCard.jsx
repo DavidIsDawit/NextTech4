@@ -66,7 +66,7 @@ export default function PortfolioCard({ item }) {
       </div>
 
       {/* Bottom Info Panel - slides up on hover */}
-      <div className="absolute bottom-0 left-0 right-0 rounded-xl bg-[#00acc1] p-8 text-white
+      <div className="absolute bottom-0 left-0 right-0 lg:h-32 rounded-xl bg-[#00acc1] p-4 text-white
                       transform translate-y-full transition-transform duration-500 group-hover:translate-y-0">
         <p className="mb-1 text-lg font-medium opacity-90 uppercase tracking-wider">
           {item.category}

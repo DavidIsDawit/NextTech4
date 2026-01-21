@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import { MdKeyboardArrowRight } from "react-icons/md";
 import Faq from "./Faq";
 
 import services from "../data/services";
@@ -76,7 +77,7 @@ export default function ServiceDetail() {
 <aside className="space-y-8 mb-28 md:mb-0 ml-0  xl:ml-14">
 
   {/* Services List */}
-  <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col border border-gray-600 border-opacity-20">
+  <div className="bg-white rounded-2xl p-6 flex flex-col border border-gray-600 border-opacity-20">
     <h3 className="text-3xl font-bold text-gray-900 mb-6">
       Services List
     </h3>
@@ -120,7 +121,7 @@ export default function ServiceDetail() {
   </div>
 
   {/* Need Help Form */}
-  <div className="bg-white rounded-2xl shadow-lg p-6  xl:p-5 border border-gray-600 border-opacity-20">
+  <div className="bg-white rounded-2xl p-6  xl:p-5 border border-gray-600 border-opacity-20">
     <h3 className="text-3xl  font-bold text-gray-900 mb-8">
       Need help?
     </h3>
@@ -178,24 +179,28 @@ export default function ServiceDetail() {
         "
       />
 
-      <button
-        type="submit"
-        className="
-          w-full
-          bg-[#00A3E0]
-          hover:bg-[#008bc7]
-          text-white
-          py-4
-          rounded-2xl
-          text-base font-semibold
-          transition
-          shadow-lg
-          flex items-center justify-center gap-2
-        "
-      >
-        SEND MESSAGE
-        <span className="text-2xl">→</span>
-      </button>
+     <div className="flex justify-center">
+  <button
+    type="submit"
+    className="
+    
+      group inline-flex items-center justify-center gap-2 px-10 py-4
+      text-white font-bold text-sm tracking-widest uppercase
+      bg-[#00A3E0] rounded-full
+      shadow-[0_15px_30px_-5px_rgba(0,163,224,0.6)]
+      hover:bg-[#0092c9]
+      hover:shadow-[0_15px_30px_-5px_rgba(0,163,224,0.6)]
+      active:scale-95
+      transition-all duration-300 ease-in-out
+    "
+  >
+    <span>SEND MESSAGE</span>
+    <MdKeyboardArrowRight
+      className="text-2xl transition-transform duration-300 group-hover:translate-x-1"
+    />
+  </button>
+</div>
+
     </form>
   </div>
 

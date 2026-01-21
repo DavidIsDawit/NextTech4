@@ -2,7 +2,7 @@ const services = [
   {
     id: 1,
     title: "Software Products",
-    subtitle: "We focus on the best practices it solutions and for services", 
+    subtitle: "We focus on the best practices it solutions and for services ", 
 
     heroImage: "/images/service.png",
 
@@ -319,7 +319,7 @@ const services = [
   },
 
   {
-    id: 1,
+    id: 9,
     title: "Software Products",
     subtitle: "We focus on the best practices it solutions and for services", 
 
@@ -361,7 +361,7 @@ const services = [
   },
 
   {
-    id: 2,
+    id: 10,
     title: "Technology Consulting",
     subtitle: "We focus on the best practices it solutions and for services", 
 
@@ -400,7 +400,7 @@ const services = [
   },
 
   {
-    id: 3,
+    id: 11,
     title: "Software Development",
     subtitle: "We focus on the best practices it solutions and for services", 
 
@@ -439,7 +439,7 @@ const services = [
   },
 
   {
-    id: 4,
+    id: 12,
     title: "Software Products",
     subtitle: "We focus on the best practices it solutions and for services", 
 
@@ -481,7 +481,7 @@ const services = [
   },
 
   {
-    id: 5,
+    id: 13,
     title: "Technology Consulting",
     subtitle: "We focus on the best practices it solutions and for services", 
 
@@ -520,7 +520,7 @@ const services = [
   },
 
   {
-    id: 6,
+    id: 14,
     title: "Software Development", 
     subtitle: "We focus on the best practices it solutions and for services",   
 
@@ -558,7 +558,7 @@ const services = [
     }
   },
   {
-    id: 7,
+    id: 15,
     title: "Software Development", 
     subtitle: "We focus on the best practices it solutions and for services",   
 
@@ -596,7 +596,7 @@ const services = [
     }
   },
   {
-    id: 8,
+    id: 16,
     title: "Software Development", 
     subtitle: "We focus on the best practices it solutions and for services",   
 
@@ -634,7 +634,7 @@ const services = [
     }
   },
   {
-    id: 1,
+    id: 17,
     title: "Software Products",
     subtitle: "We focus on the best practices it solutions and for services", 
 
@@ -676,7 +676,7 @@ const services = [
   },
 
   {
-    id: 2,
+    id: 18,
     title: "Technology Consulting",
     subtitle: "We focus on the best practices it solutions and for services", 
 
@@ -715,7 +715,7 @@ const services = [
   },
 
   {
-    id: 3,
+    id: 19,
     title: "Software Development",
     subtitle: "We focus on the best practices it solutions and for services", 
 
@@ -754,7 +754,7 @@ const services = [
   },
 
   {
-    id: 4,
+    id: 20,
     title: "Software Products",
     subtitle: "We focus on the best practices it solutions and for services", 
 
@@ -796,7 +796,7 @@ const services = [
   },
 
   {
-    id: 5,
+    id: 21,
     title: "Technology Consulting",
     subtitle: "We focus on the best practices it solutions and for services", 
 
@@ -835,7 +835,7 @@ const services = [
   },
 
   {
-    id: 6,
+    id: 22,
     title: "Software Development", 
     subtitle: "We focus on the best practices it solutions and for services",   
 
