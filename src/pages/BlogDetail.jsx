@@ -1,5 +1,37 @@
+import { useParams } from "react-router-dom";
+import BlogSearch from "../ui/BlogSearch";
+import BlogCategories from "../ui/BlogCategories";
+import RecentPosts from "../ui/RecentPosts";
+import BlogTags from "../ui/BlogTags";
+import BlogContent from "../ui/BlogContent";
+import useBlog from "../hooks/useBlog";
+
 function BlogDetail() {
-  return <div>Blog Details</div>;
+  const { id } = useParams();
+  const { posts, categories, tags, recentPosts, searchQuery, setSearchQuery } = useBlog();
+
+  const post = posts.find((p) => p.id === parseInt(id)) || posts[0];
+
+  return (
+    <div className="flex flex-col">
+      <main className="lg:mx-20 px-4 py-12 sm:px-6 lg:px-8">
+        <div className="flex flex-col gap-6 lg:flex-row">
+          {/* Main Content */}
+          <div className="w-full lg:w-[70%]">
+            <BlogContent post={post} />
+          </div>
+
+          {/* Sidebar */}
+          <aside className="w-full space-y-12 lg:w-[30%]">
+            <BlogSearch value={searchQuery} onChange={setSearchQuery} />
+            <BlogCategories categories={categories} />
+            <RecentPosts posts={recentPosts} />
+            <BlogTags tags={tags} />
+          </aside>
+        </div >
+      </main >
+    </div >
+  );
 }
 
 export default BlogDetail;
