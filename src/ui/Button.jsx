@@ -25,7 +25,7 @@ const Button = ({
 
     // Variant Styles (Colors/Themes)
     const variants = {
-        primary: "bg-[#00a6e3] text-white hover:bg-blue-900  shadow-[0_10px_30px_rgba(0,166,227,0.4)] hover:shadow-[0_12px_40px_rgba(0,166,227,0.5)]",
+        primary: "bg-primary text-white hover:bg-primaryHover shadow-[0_10px_30px_rgba(0,163,224,0.4)] hover:shadow-[0_12px_40px_rgba(0,163,224,0.5)]",
         text: "",
     };
 

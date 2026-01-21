@@ -6,7 +6,13 @@ export default {
       sans: "Roboto Mono",
     },
 
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#00A3E0",     // blue
+        primaryHover: "#0083B3", // darker blue for hover
+        secondary: "#f97316",   // orange
+      },
+    },
   },
   plugins: [],
 };

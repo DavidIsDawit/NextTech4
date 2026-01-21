@@ -158,6 +158,150 @@ const blogData = {
                 "Skyscrapers",
                 "Well-being"
             ]
+        },
+        {
+            "id": 7,
+            "title": "Smart Cities: The Intersection of Data and Infrastructure",
+            "image": "/Blog/service.png",
+            "date": "02 Nov 2026",
+            "author": "Tech Lead",
+            "category": "Technology",
+            "fullDate": "November 02, 2026",
+            "content": [
+                "Smart cities are leveraging IoT sensors to optimize traffic flow and energy usage. We are at the forefront of this revolution.",
+                "Our latest pilot program reduced energy consumption in municipal buildings by 15%."
+            ],
+            "detailImages": ["/Blog/service.png"],
+            "bottomContent": ["This data-driven approach is the blueprint for future urban development."],
+            "tags": ["Smart City", "IoT", "Data", "Efficiency"]
+        },
+        {
+            "id": 8,
+            "title": "Sustainable Materials 101: Beyond Concrete",
+            "image": "/Blog/service.png",
+            "date": "05 Nov 2026",
+            "author": "Green Team",
+            "category": "Construction",
+            "fullDate": "November 05, 2026",
+            "content": [
+                "Exploring alternatives to traditional concrete, such as bamboo-reinforced composites and recycled plastics.",
+                "These materials offer comparable strength with a significantly lower carbon footprint."
+            ],
+            "detailImages": ["/Blog/service.png"],
+            "bottomContent": ["Adopting these materials is essential for meeting international climate goals."],
+            "tags": ["Sustainability", "Materials", "Green", "Innovation"]
+        },
+        {
+            "id": 9,
+            "title": "The Future of Remote Work in Civil Engineering",
+            "image": "/Blog/service.png",
+            "date": "08 Nov 2026",
+            "author": "HR Dept",
+            "category": "Management",
+            "fullDate": "November 08, 2026",
+            "content": [
+                "Remote work utilizing VR site inspections is becoming a reality. Engineers can now tour a site halfway across the world without leaving their office.",
+                "This capability increases collaboration while reducing travel costs and emissions."
+            ],
+            "detailImages": ["/Blog/service.png"],
+            "bottomContent": ["Virtual reality tools are being rolled out across all our major hubs."],
+            "tags": ["Remote Work", "VR", "Management", "Future"]
+        },
+        {
+            "id": 10,
+            "title": "Renewable Energy Integration in Commercial Buildings",
+            "image": "/Blog/service.png",
+            "date": "12 Nov 2026",
+            "author": "Energy Div",
+            "category": "Construction",
+            "fullDate": "November 12, 2026",
+            "content": [
+                "Integrating solar films into window glass allows skyscrapers to generate their own power.",
+                "We are testing this technology on the new downtown financial center."
+            ],
+            "detailImages": ["/Blog/service.png"],
+            "bottomContent": ["Energy independence is a key selling point for modern commercial real estate."],
+            "tags": ["Energy", "Solar", "Commercial", "Green"]
+        },
+        {
+            "id": 11,
+            "title": "Cybersecurity in Critical Infrastructure",
+            "image": "/Blog/service.png",
+            "date": "15 Nov 2026",
+            "author": "Security Ops",
+            "category": "Technology",
+            "fullDate": "November 15, 2026",
+            "content": [
+                "As infrastructure becomes more connected, the risk of cyberattacks increases. We are implementing military-grade encryption.",
+                "Protecting the power grid and water supply is as important as building them."
+            ],
+            "detailImages": ["/Blog/service.png"],
+            "bottomContent": ["Our security team operates 24/7 to monitor threats."],
+            "tags": ["Security", "Cyber", "Infrastructure", "Tech"]
+        },
+        {
+            "id": 12,
+            "title": "Modular Construction: Speed and Precision",
+            "image": "/Blog/service.png",
+            "date": "18 Nov 2026",
+            "author": "Ops Lead",
+            "category": "Construction",
+            "fullDate": "November 18, 2026",
+            "content": [
+                "Prefabricated modules allow for rapid assembly on-site, reducing construction time by up to 50%.",
+                "Quality control is also improved as modules are built in a controlled factory environment."
+            ],
+            "detailImages": ["/Blog/service.png"],
+            "bottomContent": ["We are expanding our modular production facility next year."],
+            "tags": ["Modular", "Speed", "Construction", "Efficiency"]
+        },
+        {
+            "id": 13,
+            "title": "A Day in the Life of a NextTech Site Manager",
+            "image": "/Blog/service.png",
+            "date": "20 Nov 2026",
+            "author": "Guest Post",
+            "category": "Career",
+            "fullDate": "November 20, 2026",
+            "content": [
+                "From morning safety briefings to evening log updates, a site manager's day is packed with challenges and rewards.",
+                "Coordinate between diverse teams is the key to a successful project."
+            ],
+            "detailImages": ["/Blog/service.png"],
+            "bottomContent": ["Join our team to experience the excitement of building the future."],
+            "tags": ["Career", "Management", "Daily Life", "People"]
+        },
+        {
+            "id": 14,
+            "title": "Navigating Zoning Laws in Emerging Markets",
+            "image": "/Blog/service.png",
+            "date": "22 Nov 2026",
+            "author": "Legal Team",
+            "category": "University",
+            "fullDate": "November 22, 2026",
+            "content": [
+                "Understanding local regulations is crucial for international expansion. Our legal team shares insights.",
+                "Building strong relationships with local councils ensures smooth project approval."
+            ],
+            "detailImages": ["/Blog/service.png"],
+            "bottomContent": ["Compliance is non-negotiable in our operations."],
+            "tags": ["Legal", "Zoning", "International", "Growth"]
+        },
+        {
+            "id": 15,
+            "title": "Robotics in Hazardous Construction Zones",
+            "image": "/Blog/service.png",
+            "date": "25 Nov 2026",
+            "author": "R&D",
+            "category": "Technology",
+            "fullDate": "November 25, 2026",
+            "content": [
+                "Using robots for demolition and toxic waste cleanup keeps human workers safe.",
+                "Our remote-controlled units can operate in extreme temperatures."
+            ],
+            "detailImages": ["/Blog/service.png"],
+            "bottomContent": ["Safety innovation is a core value at NextTech."],
+            "tags": ["Robotics", "Safety", "Tech", "R&D"]
         }
     ]
 };
