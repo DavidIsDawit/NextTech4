@@ -14,8 +14,8 @@ function BlogDetail() {
 
   return (
     <div className="flex flex-col">
-      <main className="lg:mx-20 px-4 py-12 sm:px-6 lg:px-8">
-        <div className="flex flex-col gap-6 lg:flex-row">
+      <main className="px-4 py-12 sm:px-6 lg:px-8 lg:mx-20 xl:mx-32 2xl:mx-60">
+        <div className="flex flex-col gap-6 lg:flex-row lg:gap-10 xl:gap-16 2xl:gap-20">
           {/* Main Content */}
           <div className="w-full lg:w-[70%]">
             <BlogContent post={post} />

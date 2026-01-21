@@ -16,8 +16,8 @@ function BlogList({ posts }) {
     const totalPages = Math.ceil(posts.length / postsPerPage);
 
     return (
-        <div className="flex flex-col gap-10">
-            <div className="grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-3 lg:mx-20">
+        <div className="flex flex-col gap-20">
+            <div className="grid grid-cols-1 gap-x-6 lg:gap-x-8 xl:gap-x-10 2xl:gap-x-12 gap-y-12 sm:grid-cols-2 lg:grid-cols-3 lg:mx-20 xl:mx-32 2xl:mx-60">
                 {currentPosts.map((post) => (
                     <BlogCard key={post.id} post={post} />
                 ))}
