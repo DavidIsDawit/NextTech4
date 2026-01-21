@@ -195,7 +195,143 @@ export default [
     ],
     img_icon : img_icon,
     title:"Award from Ethiopian airlines",
-    description: "The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.   The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project. The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.",
+    description: "The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.         The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project. The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.",
+    client: "Ethiopian Airlines",
+    project: "Bole VIP Terminal Project",
+    category: "Technology",
+    issuedate: "15 June 2023 ",
+  }
+  ,
+ 
+     {
+    id: 13,
+    images: [
+       certificate_pic,
+       certificate_pic,
+       certificate_pic,
+    ],
+    img_icon : img_icon,
+    title:"Award from Ethiopian airlines",
+    description: "The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.         The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project. The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.",
+    client: "Ethiopian Airlines",
+    project: "Bole VIP Terminal Project",
+    category: "Technology",
+    issuedate: "15 June 2023 ",
+  }
+  ,
+ 
+     {
+    id: 14,
+    images: [
+       certificate_pic,
+       certificate_pic,
+       certificate_pic,
+    ],
+    img_icon : img_icon,
+    title:"Award from Ethiopian airlines",
+    description: "The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.         The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project. The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.",
+    client: "Ethiopian Airlines",
+    project: "Bole VIP Terminal Project",
+    category: "Technology",
+    issuedate: "15 June 2023 ",
+  }
+  ,
+ 
+     {
+    id: 15,
+    images: [
+       certificate_pic,
+       certificate_pic,
+       certificate_pic,
+    ],
+    img_icon : img_icon,
+    title:"Award from Ethiopian airlines",
+    description: "The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.         The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project. The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.",
+    client: "Ethiopian Airlines",
+    project: "Bole VIP Terminal Project",
+    category: "Technology",
+    issuedate: "15 June 2023 ",
+  }
+  ,
+ 
+     {
+    id: 16,
+    images: [
+       certificate_pic,
+       certificate_pic,
+       certificate_pic,
+    ],
+    img_icon : img_icon,
+    title:"Award from Ethiopian airlines",
+    description: "The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.         The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project. The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.",
+    client: "Ethiopian Airlines",
+    project: "Bole VIP Terminal Project",
+    category: "Technology",
+    issuedate: "15 June 2023 ",
+  }
+  ,
+ 
+     {
+    id: 17,
+    images: [
+       certificate_pic,
+       certificate_pic,
+       certificate_pic,
+    ],
+    img_icon : img_icon,
+    title:"Award from Ethiopian airlines",
+    description: "The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.         The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project. The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.",
+    client: "Ethiopian Airlines",
+    project: "Bole VIP Terminal Project",
+    category: "Technology",
+    issuedate: "15 June 2023 ",
+  }
+  ,
+ 
+     {
+    id: 18,
+    images: [
+       certificate_pic,
+       certificate_pic,
+       certificate_pic,
+    ],
+    img_icon : img_icon,
+    title:"Award from Ethiopian airlines",
+    description: "The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.         The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project. The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.",
+    client: "Ethiopian Airlines",
+    project: "Bole VIP Terminal Project",
+    category: "Technology",
+    issuedate: "15 June 2023 ",
+  }
+  ,
+ 
+     {
+    id: 19,
+    images: [
+       certificate_pic,
+       certificate_pic,
+       certificate_pic,
+    ],
+    img_icon : img_icon,
+    title:"Award from Ethiopian airlines",
+    description: "The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.         The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project. The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.",
+    client: "Ethiopian Airlines",
+    project: "Bole VIP Terminal Project",
+    category: "Technology",
+    issuedate: "15 June 2023 ",
+  }
+    ,
+ 
+     {
+    id: 20,
+    images: [
+       certificate_pic,
+       certificate_pic,
+       certificate_pic,
+    ],
+    img_icon : img_icon,
+    title:"Award from Ethiopian airlines",
+    description: "The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.         The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project. The prestigious ethiopian airlines minitaure replica awarded to us for our work execution and ahead of schedule work progress for bole VIP Terminal project.",
     client: "Ethiopian Airlines",
     project: "Bole VIP Terminal Project",
     category: "Technology",

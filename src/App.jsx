@@ -29,7 +29,7 @@ function App() {
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="/portfolio/:id" element={<PortfolioDetail />} />
           <Route path="certificate" element={<Certificate />} />
-          <Route path="/certificate/:id" element={<CertificateDetail />} />
+          <Route path="/certificate/:id" element={<CertificateDetail />} />          
           <Route path="blogs" element={<Blogs />} />
           <Route path="/blogs/:id" element={<BlogDetail />} />
           <Route path="contact" element={<Contact />} />
