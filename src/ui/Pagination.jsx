@@ -130,8 +130,8 @@ function Pagination({ currentPage, totalPages, onPageChange }) {
                       font-medium shadow-[0_10px_25px_-5px_rgba(0,0,0,0.1),0_8px_10px_-6px_rgba(0,0,0,0.1)]   transition-all
                       ${
                         currentPage === page
-                          ? "bg-[#00A3E0] text-white"
-                          : "bg-white text-black hover:bg-primary hover:text-white"
+                          ? "bg-primary text-white"
+                          : "bg-white text-black hover:bg-[#026184] hover:text-white"
                       }`}
         >
           {page}
