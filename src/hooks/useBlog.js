@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react";
-import blogData from "../data/blogData";
+import blogData from "../data/BlogData";
 
 function useBlog() {
     const [searchQuery, setSearchQuery] = useState("");

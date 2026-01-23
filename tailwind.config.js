@@ -7,6 +7,9 @@ export default {
     },
 
     extend: {
+      scale: {
+        120: "1.2",
+      },
       colors: {
         primary: "#00A3E0",
         primaryHover: "#0d1476ff",

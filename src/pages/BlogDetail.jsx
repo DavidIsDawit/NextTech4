@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom";
-import BlogSearch from "../ui/BlogSearch";
-import BlogCategories from "../ui/BlogCategories";
-import RecentPosts from "../ui/RecentPosts";
-import BlogTags from "../ui/BlogTags";
-import BlogContent from "../ui/BlogContent";
+import BlogSearch from "../ui/blog/BlogSearch";
+import BlogCategories from "../ui/blog/BlogCategories";
+import RecentPosts from "../ui/blog/RecentPosts";
+import BlogTags from "../ui/blog/BlogTags";
+import BlogContent from "../ui/blog/BlogContent";
 import useBlog from "../hooks/useBlog";
 
 function BlogDetail() {

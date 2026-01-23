@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { useState } from "react";
 import BlogCard from "./BlogCard";
-import Pagination from "./Pagination";
+import Pagination from "../Pagination";
 
 function BlogList({ posts }) {
     const [currentPage, setCurrentPage] = useState(1);

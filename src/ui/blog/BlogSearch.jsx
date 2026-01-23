@@ -1,7 +1,7 @@
 import { MdSearch } from "react-icons/md";
 import { useState, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import useBlog from "../hooks/useBlog";
+import useBlog from "../../hooks/useBlog";
 
 function BlogSearch({ value, onChange }) {
     const [showResults, setShowResults] = useState(false);

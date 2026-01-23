@@ -1,4 +1,4 @@
-import BlogList from "../ui/BlogList";
+import BlogList from "../ui/blog/BlogList";
 import useBlog from "../hooks/useBlog";
 
 function Blogs() {

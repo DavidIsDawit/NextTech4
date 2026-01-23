@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { MdPerson, MdDateRange } from "react-icons/md";
-import Button from "./Button";
+import Button from "../Button";
 
 function BlogCard({ post }) {
     if (!post) return null;
@@ -14,7 +14,7 @@ function BlogCard({ post }) {
                 <img
                     src={post.image}
                     alt={post.title}
-                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-1.15"
+                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-120"
                 />
             </div>
 
@@ -31,7 +31,7 @@ function BlogCard({ post }) {
                         </div>
                     </div>
 
-                    <h1 className="line-clamp-2 mb-4 text-left font-bold leading-7 text-[#1a1a1a] transition-colors group-hover:text-sky-500 2xl:text-xl">
+                    <h1 className="line-clamp-2 mb-4 text-left font-bold leading-8 text-[#1a1a1a] transition-colors group-hover:text-sky-500 text-xl 2xl:text-xl">
                         {post.title}
                     </h1>
 
