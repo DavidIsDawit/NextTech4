@@ -40,7 +40,7 @@ function RecentPosts({ posts }) {
                             className="h-20 w-20 rounded-md object-cover"
                         />
                         <div className="flex flex-col justify-center gap-3">
-                            <h4 className="text-lg font-bold leading-snug text-[#1a1a1a] transition-colors duration-300 group-hover:text-[#00a6e3]">
+                            <h4 className="line-clamp-2 text-lg font-bold leading-snug text-[#1a1a1a] transition-colors duration-300 group-hover:text-[#00a6e3]">
                                 {post.title}
                             </h4>
                             <div className="flex items-center text-sm font-medium text-[#00A3C4]">

@@ -25,7 +25,7 @@ const Button = ({
 
     // Variant Styles (Colors/Themes)
     const variants = {
-        primary: "bg-primary text-white hover:bg-primaryHover shadow-[0_10px_30px_rgba(0,163,224,0.4)] hover:shadow-[0_12px_40px_rgba(0,163,224,0.5)]",
+        primary: "bg-primary text-white hover:bg-primaryHover shadow-xl hover:shadow-[0_12px_40px_rgba(0,163,224,0.5)]",
         text: "",
     };
 
@@ -53,16 +53,15 @@ const Button = ({
 
 const sizes = {
     xs: "px-4 py-1.5 text-[10px]",
-    sm: "px-5 py-2 text-xs",
+    sm: "px-3 py-1.5 text-[10px] md:px-5 md:py-2 md:text-xs",
     md: "px-6 py-2.5 text-sm",
-    lg: "px-6 py-3.5 text-sm",
-    xl: "px-8 py-3.5 text-lg",
+    lg: " px-6 py-3 text-sm lg:px-5 lg:py-3.5 lg:text-base xl:px-6 xl:py-5 xl:text-md",
 };
 
 Button.propTypes = {
     children: PropTypes.node.isRequired,
     variant: PropTypes.string,
-    size: PropTypes.oneOf(["xs", "sm", "md", "lg", "xl"]),
+    size: PropTypes.oneOf(["xs", "sm", "md", "lg", "xl", "2xl"]),
     className: PropTypes.string,
     isLoading: PropTypes.bool,
     icon: PropTypes.elementType,

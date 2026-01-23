@@ -30,10 +30,7 @@ function Home() {
               <span className="text-xs text-gray-400 font-mono">lg</span>
               <Button size="lg" iconAfter={HiChevronRight}>GET STARTED</Button>
             </div>
-            <div className="flex flex-col items-center gap-2">
-              <span className="text-xs text-gray-400 font-mono">xl</span>
-              <Button size="xl">Extra Large</Button>
-            </div>
+
           </div>
         </div>
 

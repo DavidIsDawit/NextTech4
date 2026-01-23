@@ -10,7 +10,7 @@ function BlogCard({ post }) {
         <div
             className="group flex flex-col overflow-hidden rounded-xl bg-white shadow-sm transition-transform"
         >
-            <div className="relative overflow-hidden h-64 2xl:h-80">
+            <div className="relative overflow-hidden">
                 <img
                     src={post.image}
                     alt={post.title}
@@ -31,7 +31,7 @@ function BlogCard({ post }) {
                         </div>
                     </div>
 
-                    <h1 className="mb-4 text-left font-bold leading-7 text-[#1a1a1a] transition-colors group-hover:text-sky-500 2xl:text-xl">
+                    <h1 className="line-clamp-2 mb-4 text-left font-bold leading-7 text-[#1a1a1a] transition-colors group-hover:text-sky-500 2xl:text-xl">
                         {post.title}
                     </h1>
 
